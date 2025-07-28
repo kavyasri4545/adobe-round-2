@@ -149,6 +149,6 @@ This will run the script inside the container and write the results to your loca
 
 
 # Requirements
-Python 3.8 or higher
--PyMuPDF
+- Python 3.8 or higher
+- PyMuPDF
 
