@@ -1,0 +1,1181 @@
+{
+  "file": "logisticregression-210424064930.pdf",
+  "title": "PowerPoint Presentation",
+  "headings": [
+    {
+      "level": "H1",
+      "text": "Logistic Regression",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Logistic regression (Classification Algorithm)",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "It is a predictive analysis algorithm and based on the concept of probability.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Measures the relationship between the dependent variable and the one or more independent variables",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "(features), by estimating probabilities using logistic function.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "It used to assign observations to a discrete set of classes.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "E.g.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Email spam or not spam,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Online transactions Fraud or not Fraud,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Tumor Malignant or Benign.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Logistic regression transforms its output using",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "sigmoid (logistic)",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "function to return a probability value.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Logistic regression limits the hypothesis function between 0 to 1 i.e. h(x) /",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udc66",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "\u2032",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udf16",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "[0,1]",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Types of classification using Logistic Regression",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Binary classification(e.g. Tumor Malignant or Benign)",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Multi-Class classification(eg. Cats, dogs or Sheep's)",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Assumptions for Logistic Regression:",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "The dependent variable must be categorical in nature.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "The independent variable should not have multi-collinearity i.e. independent",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "variables must be independent of each other.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Sigmoid Function",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Maps the predicted values to probabilities.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Sigmoid Function maps any real value into another value between 0 and 1.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Hence it forms a curve like the \"S\" form. The S-form curve is called the Sigmoid function",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "or logistic function.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "z",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "= \u0275",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "0",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "0",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "+ \u0275",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "+ \u0275",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "+ \u2026\u2026. + \u0275",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "n",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "n",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "[Here, x",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "0",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "(bias) is always 1]",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "is independent variable",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "i = 0,1,2, \u2026, n",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Decision boundary",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Threshold classi\ufb01eroutput",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udc66",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "\u2032",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "or h",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "(x)",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "at 0.5:",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "If",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "h",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "(x)",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "\u2265 0.5",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": ", predict \u201c",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "y = 1",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "\u201d",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "If",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "h",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "(x) < 0.5",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": ", predict \u201c",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "y = 0",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "\u201d",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Linear Decision boundary",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Predict \u2018y = 0\u2019,  if",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "3 + \ud835\udc65",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+ \ud835\udc65",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": ">=0",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "z=",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "0",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "0",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+ \u2026\u2026. +",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "n",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "n",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Non-Linear Decision boundary",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Predict \u2018y = 0\u2019,  if",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "3 + \ud835\udc65",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+ \ud835\udc65",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": ">=0",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "z =",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "0",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "0",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "x",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc65",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "+",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\u0275",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc65",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Cost / Error/ Loss function",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Cost Function",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "J(\u019f) =",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\u2212",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "(",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc5a",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\u03c3",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc56=1",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc5a",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "(\ud835\udc4c",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc56",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc59\ud835\udc5c\ud835\udc54\ud835\udc66",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\u2032",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udc56",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "+ (1 \u2212\ud835\udc4c",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc56",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": ") \ud835\udc59\ud835\udc5c\ud835\udc54(1 \u2212\ud835\udc66",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\u2032",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udc56",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": ")))",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc4c",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "(\ud835\udc56)",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "- Ground truths or Actual output",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc66",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "\u2032",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "\ud835\udc56",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "- Prediction output",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "m",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "- No. of data points or samples",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Gradient Descent",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "The objective of training a machine learning model is to minimize the loss or error",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "between ground truths and predictions by changing the trainable parameters.",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Gradient is the extension of derivative in multi-dimensional space, tells the direction",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "along which the loss or error is optimally minimized.",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Gradient is defined as the maximum rate of change.",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udf03",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udc57",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "= \ud835\udf03",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udc57",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\u2212\ud835\udefc",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udf15",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udf15\ud835\udf03",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udc57",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc3d(\ud835\udf03)",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udf03",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "\ud835\udc57",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "-Training parameter",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udefc",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\u2013 Learning rate",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\ud835\udc3d(\ud835\udf03)",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "\u2013 Error / Cost function",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Practical Steps in Logistic Regression:",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "To implement the Logistic Regression using Python,",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Data Pre-processing step",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Fitting Logistic Regression to the Training set",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Predicting the test result",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Test accuracy of the result(Creation of Confusion matrix)",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Visualizing the test set result.",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Richard Szeliski, Computer Vision: Algorithms and Applications, Springer 2010",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Artificial Intelligence and Machine Learning, Chandra S.S. & H.S. Anand, PHI Publications",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "\u2022",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Machine Learning, Rajiv Chopra, Khanna Publishing House",
+      "page": 10
+    }
+  ]
+}

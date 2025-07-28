@@ -1,0 +1,201 @@
+{
+  "file": "CS Lab Manual.pdf",
+  "title": "CS Lab Manual",
+  "headings": [
+    {
+      "level": "H2",
+      "text": "Communication\u00a0Systems\u00a0Lab(23CCE383)",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Department\u00a0of\u00a0Electronics\u00a0and\u00a0Communication\u00a0Engineering",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Amrita\u00a0VishwaVidyapeetham,\u00a0Amaravati\u00a0Campus",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a01",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Sampling\u00a0and\u00a0reconstruction\u00a0of\u00a0an\u00a0analog\u00a0signal\u00a0by\u00a0designing\u00a0pulse",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "amplitude\u00a0modulator\u00a0and\u00a0demodulator\u00a0circuits.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a02",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Application\u00a0of\u00a0Sampling\u00a0by\u00a0Designing\u00a0Time\u00a0Division\u00a0Multiplexer\u00a0and",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Demultiplexer\u00a0Circuits",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Procedure:",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a03",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Transmission\u00a0of\u00a0Digital\u00a0Information\u00a0Using\u00a0Analog\u00a0Amplitude\u00a0Modulation",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a04",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Phase\u00a0Modulation\u00a0for\u00a0Digital\u00a0Data\u00a0Transmission",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "EXPERIMENT\u00a05(a)",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Pulse\u00a0Code\u00a0Modulation",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Procedure:",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a05(b)",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "Delta\u00a0Modulation",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a06",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Geometric\u00a0Signal\u00a0Representation\u00a0using\u00a0Gram-Schmidt\u00a0Orthogonalization",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": ":\u00a0Coordinates\u00a0of\u00a0original\u00a0signals\u00a0in\u00a0this\u00a0basis",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a07",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "ASK\u00a0(OOK)\u00a0and\u00a0BPSK\u00a0Modulation\u00a0&\u00a0Demodulation\u00a0with\u00a0BER",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Performance\u00a0Comparison",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a08",
+      "page": 53
+    },
+    {
+      "level": "H2",
+      "text": "M-PSK\u00a0and\u00a0QAM\u00a0Modulation\u00a0and\u00a0BER\u00a0Comparison",
+      "page": 53
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a09",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "To\u00a0Study\u00a0the\u00a0Effects\u00a0of\u00a0ISI\u00a0by\u00a0Generating\u00a0an\u00a0Eye\u00a0Pattern",
+      "page": 60
+    },
+    {
+      "level": "H3",
+      "text": "Code:",
+      "page": 61
+    },
+    {
+      "level": "H3",
+      "text": "Procedure:",
+      "page": 61
+    },
+    {
+      "level": "H3",
+      "text": "Eye\u00a0Design:",
+      "page": 62
+    },
+    {
+      "level": "H3",
+      "text": "Result:",
+      "page": 62
+    },
+    {
+      "level": "H2",
+      "text": "Experiment\u00a010",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "text": "Specifications\u00a0and\u00a0Characterization\u00a0of\u00a0Hardware\u00a0Platforms\u00a0like",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "text": "NooRadio,\u00a0SDR",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "text": "Experiment-\u00a011",
+      "page": 69
+    },
+    {
+      "level": "H2",
+      "text": "Establishment\u00a0of\u00a0Wireless\u00a0Communication\u00a0Link\u00a0Using\u00a0a\u00a0Pair\u00a0of\u00a0SDR",
+      "page": 69
+    },
+    {
+      "level": "H2",
+      "text": "Platforms",
+      "page": 69
+    }
+  ]
+}
